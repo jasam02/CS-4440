@@ -1,0 +1,9 @@
+
+""", "latin-1")
+from hashlib import sha256
+print(sha256(MSG).hexdigest())
+
+if MSG[85] == 0x0B:
+    print("I come in peace.")
+else:
+    print("Prepare to be destroyed!")
